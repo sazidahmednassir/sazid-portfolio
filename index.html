@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
+    <div id="home">
       <!-- navi start -->
       <nav class="navbar navbar-expand-lg bg-dark fixed-top">
         <div class="container-fluid">
@@ -45,32 +45,239 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">About </a>
+                <a class="nav-link text-light" href="#about">About </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Projects</a>
+                <a class="nav-link text-light" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Contact</a>
+                <a class="nav-link text-light" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <!-- navi end -->
-
-      <!-- banner start -->
-      <div class="background">
-        <img src="1.png" class="img-fluid" alt="sazid Portfolio" />
-      </div>
-      <div class="heading-content text-center">
-        <h5>Hello, I'm</h5>
-        <h1>Sazid Ahmed Nassir</h1>
-        <p>I am web developer</p>
-      </div>
-
-      <!-- banner end -->
     </div>
+    <!-- navi end -->
+
+    <!-- banner start -->
+    <div class="background">
+      <img src="1.png" class="img-fluid" alt="sazid Portfolio" />
+    </div>
+    <div class="heading-content text-center">
+      <h5>Hello, I'm</h5>
+      <h1>Sazid Ahmed Nassir</h1>
+      <p>I am web developer</p>
+    </div>
+
+    <!-- banner end -->
+
+    <!-- about start -->
+    <div id="about" class="container-fluid mt-5 pb-5">
+      <div class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold">About Me</h3>
+        <hr class="w-50 mx-auto pb-1 my-5" />
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+          <img src="2.JPG" alt="" class="img-fluid ms-5 h-80" />
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <h2>About</h2>
+          <hr />
+          <p>
+            I am a Junior web developer with a focus on React. I have also
+            worked with the Mern stack, which is a combination of MongoDB,
+            Express, React, and Node.js. This gives me a lot of experience in
+            both the front-end and back-end development worlds. I am always
+            looking to learn new technologies. I want to be a good problem
+            solver and Full-stack developer.
+          </p>
+          <div class="d-flex mt-5">
+            <button class="btn w-50">
+              <a href="https://github.com/sazidahmednassir">My Github </a>
+            </button>
+            <button class="btn w-50">
+              <a
+                href="https://drive.google.com/file/d/1Z_OgV7Es08gB-zQLbL7Hr6o0pNmZqpSV/view?usp=sharing"
+                >See My Cv
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- about end -->
+
+    <!-- projectstart -->
+    <div id="projects" class="container-fluid mt-5 pb-5">
+      <div class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold">Projects</h3>
+        <hr class="w-50 mx-auto pb-1 my-5" />
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+          <div class="card">
+            <img src="p1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">DeComputerParts</h5>
+              <p class="card-text">
+                It is Mern Stack Web App that has admin features, Payment
+                integration with stripe & also SendGrid API to send the message.
+              </p>
+              <a href="https://decomputerparts.web.app/" class="btn btn-dark"
+                >Live Preview</a
+              >
+              <a href="#" class="btn btn-dark">See Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+          <div class="card">
+            <img src="p2.png" class="card-img-top img-fluid" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title mt-4">SmartPhone Inventory</h5>
+              <p class="card-text">
+                Mern Stack Inventory Web App that manages inventories, adds a
+                new item, and shows my item which specific user added.
+              </p>
+              <a
+                href="https://smartphoneinventory.web.app/"
+                class="btn btn-dark"
+                >Live Preview</a
+              >
+              <a href="#" class="btn btn-dark">See Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 pb-5">
+          <div class="card">
+            <img src="Screenshot (288).png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title mt-3">Sazid Photography Event</h5>
+              <p class="card-text">
+                Independent professional photographer web app that shows
+                services, show blogs for users can view photographer activity.
+              </p>
+              <a
+                href="https://spontaneous-cucurucho-d4592d.netlify.app/"
+                class="btn btn-dark"
+                >Live Preview</a
+              >
+              <a href="#" class="btn btn-dark">See Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- project end -->
+
+    <!-- contact start -->
+    <div id="contact" class="container-fluid mt-3 mb-5">
+      <div class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold">Contact Me</h3>
+        <hr class="w-50 mx-auto pb-1 my-5" />
+      </div>
+      <form
+        method="POST"
+        action="https://formsubmit.co/rovitejja@gmail.com"
+        enctype="multipart/form-data"
+      >
+        <div class="mb-3">
+          <label for="name" class="form-label">Your Name</label>
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            name="name"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <input type="hidden" name="_captcha" value="false" />
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            name="email"
+            aria-describedby="emailHelp"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="sub" class="form-label">Subject</label>
+          <input
+            type="hidden"
+            name="_subject"
+            value="New submission!"
+            id="sub
+        "
+          />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            name="message"
+          ></textarea>
+        </div>
+
+        <button type="submit" id="bt" class="btn btn-dark">Submit</button>
+      </form>
+    </div>
+    <div id="status"></div>
+    <!-- contact end -->
+
+    <footer class="bg-dark text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <h5>My Social Links:</h5>
+        <!-- Section: Social media -->
+        <section class="mb-4">
+          <!-- Facebook -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.facebook.com/profile.php?id=100010096441023"
+            role="button"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <!-- Google -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="mailto:sazidahmednassir@gmail.com"
+            role="button"
+            ><i class="fab fa-google"></i
+          ></a>
+
+          <!-- Linkedin -->
+          <a
+            class="btn btn-outline-light btn-floating m-1"
+            href="https://www.linkedin.com/in/sazid-ahmed-nassir-370263241/"
+            role="button"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+          >MDBootstrap.com</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/c771f0763d.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- bootstrap javascript cdn -->
     <script
@@ -78,5 +285,40 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      var btn = document.getElementById("bt");
+      btn.addEventListener("click", function (e) {
+        e.preventDefault();
+        var name = document.getElementById("name").value;
+        console.log(name);
+        var email = document.getElementById("email").value;
+        console.log(email);
+        var subject = document.getElementById("sub").value;
+        console.log(subject);
+        var message = document.getElementById("message").value;
+        console.log(message);
+
+        var body =
+          "name: " +
+          name +
+          "<br/> email: " +
+          email +
+          "<br/> subject" +
+          subject +
+          "<br> message: " +
+          message;
+        Email.send({
+          Host: "smtp.gmail.com",
+          Username: "rovitejja@gmail.com",
+          Password: "pznwfhaqnaptzjsb",
+          To: "rovitejja@gmail.com",
+          From: email,
+          Subject: subject,
+          Body: body,
+        }).then((message) => alert(message));
+      });
+    </script> -->
+    <script src="script.js"></script>
   </body>
 </html>
