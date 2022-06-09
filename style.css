@@ -30,3 +30,34 @@ body {
 .nav-link:hover {
   color: #1ebba3 !important;
 }
+
+.heading-content {
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  max-width: 100%;
+  margin-left: 4px;
+}
+
+.heading-content h5 {
+  font-size: 4em;
+  font-weight: 500;
+
+  font-family: monospace;
+}
+
+.heading-content h1 {
+  font-size: 4em;
+  font-weight: bold;
+
+  font-family: "Montserrat", sans-serif;
+}
+
+.heading-content p {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-family: "Montserrat", sans-serif;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
