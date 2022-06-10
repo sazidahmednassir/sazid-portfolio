@@ -18,10 +18,15 @@
   <body>
     <div id="home">
       <!-- navi start -->
-      <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+      <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
+          <a
+            class="navbar-brand text-white"
+            href="https://quiet-mochi-ab575a.netlify.app"
+            >Sazid Portflio Site</a
+          >
           <button
-            class="navbar-toggler"
+            class="navbar-toggler text-white"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarScroll"
@@ -33,25 +38,28 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul
-              class="navbar-nav mx-auto my-2 my-lg-0 navbar-nav-scroll"
+              class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll"
               style="--bs-scroll-height: 100px"
             >
               <li class="nav-item">
                 <a
                   class="nav-link text-light active"
                   aria-current="page"
-                  href="#"
+                  href="https://quiet-mochi-ab575a.netlify.app"
                   >Home</a
                 >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#contact">Contact</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="#about">About </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="#projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
@@ -60,14 +68,23 @@
     </div>
     <!-- navi end -->
 
+    <!-- <div class="wrapper cusb">
+      <div class="static-text">I'm a Junoir</div>
+      <ul class="dynamic-text">
+        <li><span>Web Developer</span></li>
+        <li><span>Frontend Developer</span></li>
+        <li><span>Mern Stack Developer</span></li>
+        <li><span>Software Engineer</span></li>
+      </ul>
+    </div> -->
+    <div class="banner-area">
+      <h3>Sazid Ahmed Nassir</h3>
+      <h2>I am a Junoir <span class="animate"></span></h2>
+    </div>
+
     <!-- banner start -->
     <div class="background">
       <img src="1.png" class="img-fluid" alt="sazid Portfolio" />
-    </div>
-    <div class="heading-content text-center">
-      <h5>Hello, I'm</h5>
-      <h1>Sazid Ahmed Nassir</h1>
-      <p>I am web developer</p>
     </div>
 
     <!-- banner end -->
@@ -80,7 +97,11 @@
       </div>
       <div class="row">
         <div class="col-lg-6 col-md-6 col-12">
-          <img src="2.JPG" alt="" class="img-fluid ms-5 h-80" />
+          <img
+            src="2.JPG"
+            alt=""
+            class="img-fluid h-80 cusi rounded-circle border border-dark"
+          />
         </div>
         <div class="col-lg-6 col-md-6 col-12">
           <h2>About</h2>
@@ -108,6 +129,52 @@
       </div>
     </div>
     <!-- about end -->
+    <div class="container">
+      <div class="post-heading text-center">
+        <h3 class="display-4 font-weight-bold">MY Skills</h3>
+        <hr class="w-50 mx-auto pb-1 my-5" />
+      </div>
+      <div class="progress">
+        <div
+          class="progress-bar progress-bar-striped bg-dark"
+          style="width: 80%"
+        >
+          <span class="cush">React Js: 80%</span>
+        </div>
+      </div>
+      <div class="progress">
+        <div
+          class="progress-bar progress-bar-striped bg-dark"
+          style="width: 75%"
+        >
+          <span class="cush">Node Js: 75%</span>
+        </div>
+      </div>
+      <div class="progress">
+        <div
+          class="progress-bar progress-bar-striped bg-dark"
+          style="width: 80%"
+        >
+          <span class="cush">MongoDB: 70%</span>
+        </div>
+      </div>
+      <div class="progress">
+        <div
+          class="progress-bar progress-bar-striped bg-dark"
+          style="width: 65%"
+        >
+          <span class="cush">Tailwind CSS: 65%</span>
+        </div>
+      </div>
+      <div class="progress">
+        <div
+          class="progress-bar progress-bar-striped bg-dark"
+          style="width: 75%"
+        >
+          <span class="cush">Bootstrap: 75%</span>
+        </div>
+      </div>
+    </div>
 
     <!-- projectstart -->
     <div id="projects" class="container-fluid mt-5 pb-5">
@@ -128,7 +195,7 @@
               <a href="https://decomputerparts.web.app/" class="btn btn-dark"
                 >Live Preview</a
               >
-              <a href="#" class="btn btn-dark">See Details</a>
+              <a href="de.html" class="btn btn-dark">See Details</a>
             </div>
           </div>
         </div>
@@ -146,7 +213,7 @@
                 class="btn btn-dark"
                 >Live Preview</a
               >
-              <a href="#" class="btn btn-dark">See Details</a>
+              <a href="sm.html" class="btn btn-dark">See Details</a>
             </div>
           </div>
         </div>
@@ -164,7 +231,7 @@
                 class="btn btn-dark"
                 >Live Preview</a
               >
-              <a href="#" class="btn btn-dark">See Details</a>
+              <a href="smt.html" class="btn btn-dark">See Details</a>
             </div>
           </div>
         </div>
@@ -173,7 +240,7 @@
     <!-- project end -->
 
     <!-- contact start -->
-    <div id="contact" class="container-fluid mt-3 mb-5">
+    <div id="contact" class="container mt-3 mb-5">
       <div class="post-heading text-center">
         <h3 class="display-4 font-weight-bold">Contact Me</h3>
         <hr class="w-50 mx-auto pb-1 my-5" />
@@ -204,16 +271,7 @@
             aria-describedby="emailHelp"
           />
         </div>
-        <div class="mb-3">
-          <label for="sub" class="form-label">Subject</label>
-          <input
-            type="hidden"
-            name="_subject"
-            value="New submission!"
-            id="sub
-        "
-          />
-        </div>
+
         <div class="mb-3">
           <label for="message" class="form-label">Message</label>
           <textarea
@@ -321,6 +379,22 @@
         }).then((message) => alert(message));
       });
     </script> -->
+    <script src="typed.js"></script>
+    <script src="typed.min.js"></script>
+    <script>
+      var typed = new Typed(".animate", {
+        strings: [
+          "Web Developer",
+          "Frontend Developer",
+          "Mern Stack Developer",
+          "Software Engineer",
+        ],
+        typeSpeed: 70,
+        backSpeed: 70,
+        loop: true,
+      });
+    </script>
+
     <script src="script.js"></script>
   </body>
 </html>
