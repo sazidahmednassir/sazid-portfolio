@@ -62,6 +62,29 @@ body {
   letter-spacing: 2px;
 }
 
+.banner-area .btn {
+  border: 2px solid transparent;
+  width: 25%;
+  padding: 15px 22px;
+  background: #000;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin: 0 10px;
+}
+
+.banner-area .btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.banner-area .btn:hover {
+  border: 2px solid #1ebba3;
+  cursor: pointer;
+}
+
 #about .btn {
   border: 2px solid transparent;
   width: 40%;
@@ -120,8 +143,8 @@ body {
 
 .banner-area {
   position: absolute;
-  top: 90%;
-  left: 72%;
+  top: 110%;
+  left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
@@ -130,8 +153,9 @@ body {
 .banner-area h3 {
   font-size: 30px;
   text-transform: uppercase;
-  color: rgb(23, 22, 22);
+  color: rgb(242, 239, 239);
   margin: 0 0 40px 0;
+  font-weight: bolder;
 }
 
 .banner-area h2 {
@@ -139,10 +163,13 @@ body {
   padding: 0;
   font-size: 2em;
   line-height: 0;
+  color: rgb(228, 226, 226);
+  font-weight: 900;
 }
 
+/* color:darkorange; */
 .banner-area h2 span {
-  color: darkorange;
+  color: rgb(145, 255, 0);
 }
 
 .navbar-toggler-icon {
@@ -175,6 +202,29 @@ img.img-fluid.h-80.cusi {
   width: 50%;
 }
 
+.contact .btn {
+  border: 2px solid transparent;
+  width: 25%;
+  padding: 15px 22px;
+  background: #000;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin: 10% 37%;
+}
+
+.contact .btn a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact .btn:hover {
+  border: 2px solid #1ebba3;
+  cursor: pointer;
+}
+
 @media (max-width: 800px) {
   .banner-area h2 {
     font-size: 1.3em;
@@ -184,12 +234,36 @@ img.img-fluid.h-80.cusi {
   }
   .banner-area {
     position: absolute;
-    top: 30%;
+    top: 36%;
     left: 50%;
+  }
+
+  .banner-area .btn {
+    width: 50%;
+    margin-bottom: 5%;
   }
   .cusi {
     margin: 0;
   }
+
+  #about {
+    margin-top: 89px !important;
+  }
+  .sm {
+    width: 100% !important;
+    margin: 0 10px !important;
+  }
+
+  .contact .btn {
+    border: 2px solid transparent;
+    width: 61%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin: 10% 19%;
+  }
+
   img.img-fluid.h-80.cusi {
     margin-left: 86px;
     width: 50%;
